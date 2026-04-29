@@ -1,15 +1,12 @@
 # ContainerizationAndDevops-Students-Submission-
 Students need to fork, commit change and create pull request 
-
----
-
 GitHub Assignment Submission (Quick Steps)
 
 Repository URL
 
-https://github.com/upessocs/ContainerizationAndDevops-Students-Submission-.git
+`https://github.com/upessocs/ContainerizationAndDevops-Students-Submission-.git`
 
-
+![](./img.png)
 ---
 
 Step 1: Fork the Repo
@@ -25,10 +22,9 @@ This creates your personal copy
 ---
 
 Step 2: Clone Your Fork
-
+```shell
 git clone https://github.com/<your-username>/ContainerizationAndDevops-Students-Submission-.git
-cd ContainerizationAndDevops-Students-Submission-
-
+cd ContainerizationAndDevops-Students-Submission-```
 
 ---
 
@@ -40,7 +36,7 @@ b1_<sapid>_<name>
 
 Example:
 
-mkdir b1_500123456_prateek
+`mkdir b1_500123456_prateek`
 
 
 ---
@@ -48,27 +44,24 @@ mkdir b1_500123456_prateek
 Step 4: Add Files
 
 Inside your folder, add:
-
+```
 b1_500123456_prateek/
 ├── assignment.md
 ├── screenshots/
-├── output.pdf
-
+├── output.pdf```
 
 ---
 
 Step 5: Commit Changes
-
+```shell
 git add .
-git commit -m "Submission: SAPID 500123456"
-
+git commit -m "Submission: SAPID 500123456"```
 
 ---
 
 Step 6: Push to GitHub
-
-git push origin main
-
+```shell
+git push origin main```
 
 ---
 
@@ -100,12 +93,7 @@ Fork → Clone → Folder → Add Files → Commit → Push → Pull Request
 
 Checklist
 
-Correct folder name
-
-Files inside folder only
-
-Commit done
-
-PR created
-
-
+- Correct folder name
+- Files inside folder only
+- Commit done
+- PR created
