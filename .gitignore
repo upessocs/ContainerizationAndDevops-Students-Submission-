@@ -1,0 +1,7 @@
+# ignore large binaries
+minikube-linux-amd64
+*.iso
+*.img
+*.zip
+*.tar
+*.gz
