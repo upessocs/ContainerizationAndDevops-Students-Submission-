@@ -1,0 +1,35 @@
+services:
+  db:
+    build: ./database
+    container_name: database_container
+    restart: always
+    env_file: .env
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      assignment_net:
+        ipv4_address: 192.168.1.101
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d assignment_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    container_name: backend_container
+    restart: on-failure
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env
+    networks:
+      assignment_net:
+        ipv4_address: 192.168.1.100
+
+volumes:
+  pg_data:
+
+networks:
+  assignment_net:
+    external: true
