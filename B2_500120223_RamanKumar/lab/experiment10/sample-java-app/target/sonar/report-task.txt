@@ -1,0 +1,6 @@
+projectKey=sample-java-app
+serverUrl=http://localhost:9001
+serverVersion=9.9.8.100196
+dashboardUrl=http://localhost:9001/dashboard?id=sample-java-app
+ceTaskId=AZ3lEDTISPF0SMTf1Um9
+ceTaskUrl=http://localhost:9001/api/ce/task?id=AZ3lEDTISPF0SMTf1Um9
