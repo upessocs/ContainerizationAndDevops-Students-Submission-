@@ -1,0 +1,38 @@
+services:
+  backend:
+    build: ./backend
+    container_name: backend_api
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: postgres_db
+      POSTGRES_DB: mydb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+    depends_on:
+      - postgres_db
+    networks:
+      myipvlan:
+        ipv4_address: 192.168.100.10
+
+  postgres_db:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      myipvlan:
+        ipv4_address: 192.168.100.11
+
+volumes:
+  pgdata:
+
+networks:
+  myipvlan:
+    external: true

@@ -1,0 +1,47 @@
+pipeline {
+  agent any
+
+  environment {
+    IMAGE_NAME = "raman0510/myapp" 
+  }
+
+  stages {
+
+    stage('Checkout Code') {
+      steps {
+        // Jenkins already checks out, but keeping clean version
+        git branch: 'main', url: 'https://github.com/raman0610/devops_lab' 
+      }
+    }
+
+    stage('Move to experiment7') {
+      steps {
+        dir('lab/experiment7') {
+          sh 'ls'
+        }
+      }
+    }
+
+    stage('Build Image') {
+      steps {
+        dir('lab/experiment7') {
+          sh 'docker build -t $IMAGE_NAME:latest .'
+        }
+      }
+    }
+
+    stage('Login DockerHub') {
+      steps {
+        withCredentials([string(credentialsId: 'dockerhub-token', variable: 'DOCKER_TOKEN')]) {
+          sh 'echo $DOCKER_TOKEN | docker login -u raman0510 --password-stdin'   
+        }
+      }
+    }
+
+    stage('Push Image') {
+      steps {
+        sh 'docker push $IMAGE_NAME:latest'
+      }
+    }
+  }
+}
