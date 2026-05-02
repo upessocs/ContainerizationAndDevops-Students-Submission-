@@ -1,0 +1,99 @@
+----------------------------------------------------------------
+Starting Academic PDF Generation at 2026-05-02 15:17:37
+----------------------------------------------------------------
+[1/4] Verifying Dependencies...
+[2/4] Downloading Tech Badges...
+[3/4] Collecting & Sanitizing Lab Files...
+Processing: Lab/Experiment_0-Windows_Subsystem_for_Linux_Configuration.md
+Processing: Lab/Experiment_1-Comparison_of_Virtual_Machines_and_Containers.md
+Processing: Lab/Experiment_2-Docker_Basic_Operations.md
+Processing: Lab/Experiment_3-Deploying_NGINX_Using_Different_Base_Images_and_Comparing_Image_Layers.md
+Processing: Lab/Experiment_4-Docker_Essentials.md
+Processing: Lab/Experiment_5_Docker-Volumes_Monitoring_Networks.md
+Processing: Lab/Experiment_6_Docker_Run_Comparison_Docker_Compose.md
+Processing: Lab/Experiment_7_Jenkins_Github_Docker-Hub.md
+Processing: Lab/Experiment_9_Infrastructure_Automation_using_Ansible.md
+Processing: Lab/Experiment_10_SonarQube_Static_Code_Analysis.md
+Processing: Lab/Experiment_11_Orchestration_using_Docker_Swarm.md
+Processing: Lab/Experiment_12_Container_Orchestration_using_Kubernetes.md
+[4/4] Preparing Academic Formatting...
+Using local logo: UPES_Logo.jpg
+[4/4] Generating Academic Report...
+----------------------------------------------------------------
+SUCCESS: Academic Report generated as 'DevOps_Lab_Report.pdf'.
+----------------------------------------------------------------
+----------------------------------------------------------------
+Starting Academic PDF Generation at 2026-05-02 15:25:35
+----------------------------------------------------------------
+[1/4] Verifying Dependencies...
+[2/4] Downloading Tech Badges...
+[3/4] Collecting & Sanitizing Lab Files...
+Processing: Lab/Experiment_0-Windows_Subsystem_for_Linux_Configuration.md
+Processing: Lab/Experiment_1-Comparison_of_Virtual_Machines_and_Containers.md
+Processing: Lab/Experiment_2-Docker_Basic_Operations.md
+Processing: Lab/Experiment_3-Deploying_NGINX_Using_Different_Base_Images_and_Comparing_Image_Layers.md
+Processing: Lab/Experiment_4-Docker_Essentials.md
+Processing: Lab/Experiment_5_Docker-Volumes_Monitoring_Networks.md
+Processing: Lab/Experiment_6_Docker_Run_Comparison_Docker_Compose.md
+Processing: Lab/Experiment_7_Jenkins_Github_Docker-Hub.md
+Processing: Lab/Experiment_9_Infrastructure_Automation_using_Ansible.md
+Processing: Lab/Experiment_10_SonarQube_Static_Code_Analysis.md
+Processing: Lab/Experiment_11_Orchestration_using_Docker_Swarm.md
+Processing: Lab/Experiment_12_Container_Orchestration_using_Kubernetes.md
+[4/4] Preparing Academic Formatting...
+[4/4] Generating Academic Report...
+----------------------------------------------------------------
+SUCCESS: Academic Report generated as 'DevOps_Lab_Report.pdf'.
+----------------------------------------------------------------
+----------------------------------------------------------------
+Starting Academic PDF Generation at 2026-05-02 15:29:01
+----------------------------------------------------------------
+[1/4] Verifying Dependencies...
+[2/4] Downloading Tech Badges...
+[3/4] Collecting & Sanitizing Lab Files...
+Processing: Lab/Experiment_0-Windows_Subsystem_for_Linux_Configuration.md
+Processing: Lab/Experiment_1-Comparison_of_Virtual_Machines_and_Containers.md
+Processing: Lab/Experiment_2-Docker_Basic_Operations.md
+Processing: Lab/Experiment_3-Deploying_NGINX_Using_Different_Base_Images_and_Comparing_Image_Layers.md
+Processing: Lab/Experiment_4-Docker_Essentials.md
+Processing: Lab/Experiment_5_Docker-Volumes_Monitoring_Networks.md
+Processing: Lab/Experiment_6_Docker_Run_Comparison_Docker_Compose.md
+Processing: Lab/Experiment_7_Jenkins_Github_Docker-Hub.md
+Processing: Lab/Experiment_9_Infrastructure_Automation_using_Ansible.md
+Processing: Lab/Experiment_10_SonarQube_Static_Code_Analysis.md
+Processing: Lab/Experiment_11_Orchestration_using_Docker_Swarm.md
+Processing: Lab/Experiment_12_Container_Orchestration_using_Kubernetes.md
+[4/4] Preparing Academic Formatting...
+[4/4] Generating Academic Report...
+Error producing PDF.
+! Package fontspec Error: The font "Times New Roman" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.116 
+
+[ERROR] PDF generation failed. Check log file for details.
+----------------------------------------------------------------
+Starting Academic PDF Generation at 2026-05-02 15:29:50
+----------------------------------------------------------------
+[1/4] Verifying Dependencies...
+[2/4] Downloading Tech Badges...
+[3/4] Collecting & Sanitizing Lab Files...
+Processing: Lab/Experiment_0-Windows_Subsystem_for_Linux_Configuration.md
+Processing: Lab/Experiment_1-Comparison_of_Virtual_Machines_and_Containers.md
+Processing: Lab/Experiment_2-Docker_Basic_Operations.md
+Processing: Lab/Experiment_3-Deploying_NGINX_Using_Different_Base_Images_and_Comparing_Image_Layers.md
+Processing: Lab/Experiment_4-Docker_Essentials.md
+Processing: Lab/Experiment_5_Docker-Volumes_Monitoring_Networks.md
+Processing: Lab/Experiment_6_Docker_Run_Comparison_Docker_Compose.md
+Processing: Lab/Experiment_7_Jenkins_Github_Docker-Hub.md
+Processing: Lab/Experiment_9_Infrastructure_Automation_using_Ansible.md
+Processing: Lab/Experiment_10_SonarQube_Static_Code_Analysis.md
+Processing: Lab/Experiment_11_Orchestration_using_Docker_Swarm.md
+Processing: Lab/Experiment_12_Container_Orchestration_using_Kubernetes.md
+[4/4] Preparing Academic Formatting...
+[4/4] Generating Academic Report...
+----------------------------------------------------------------
+SUCCESS: Academic Report generated as 'DevOps_Lab_Report.pdf'.
+----------------------------------------------------------------
